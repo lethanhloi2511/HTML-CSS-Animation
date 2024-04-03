@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Astrospace', sans-serif;
+    background-color: #e7e9f6;
+    overflow-y: overlay;
+}
+
+/* Scrollbar CSS */
+html *::-webkit-scrollbar {
+    width: 10px;
+}
+html *::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #198754 0%, #ffc107 99%);
+    border-radius: 100px;
+}
+html *::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px grey;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Fix background-color when minimize the screen */
+.offcanvas-backdrop {
+    width: 100%;
+    height: 100%;
+}
+
+/* Font emmbeded */
+@font-face {
+    font-family: Astrospace, sans-serif;
+    src: url('../fonts/AstroSpace.ttf');
+    font-weight: 600;
+}

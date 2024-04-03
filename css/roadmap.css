@@ -1,0 +1,367 @@
+.desktop {
+    position: relative;
+    max-width: 1920px;
+}
+.roadmap {
+    width: 100%;
+    bottom: -80em;
+}
+.roadcenter {
+    width: 100%;
+    bottom: -65em;
+}
+.roadfooter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: -70rem;
+}
+
+.box-roadmap {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.image-13 {
+    width: 81em;
+    max-width: none;
+}
+/* .image-12 {
+    height: 51em;
+    max-width: none;
+    position: absolute;
+    bottom: -70em;
+    right: 0px;
+    z-index: -10;
+} */
+.image-12 {
+    height: 46em;
+    max-width: none;
+    position: relative;
+    bottom: -26em;
+    right: -41em;
+    z-index: -10;
+}
+
+.image-48 {
+    width: 81em;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.box-btn.super {
+    top: 22.5rem;
+    left: 23.5em;
+    right: auto;
+}
+.btn-footer {
+    width: 271px;
+    height: 4rem;
+}
+.btn-footer-bg {
+    width: 300px;
+    height: 5rem;
+}
+.box-footer {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.button.bottom {
+    width: 36em;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: none;
+    right: 60em;
+}
+.text-18 {
+    font-size: 1.8em;
+}
+.html-embed-2 {
+    width: 2.3em;
+    height: 2.3em;
+}
+.image-10 {
+    z-index: 1;
+    width: 47.7em;
+    max-width: none;
+}
+/* .link-loin-now {
+    z-index: 2;
+    width: 54em;
+    height: 11em;
+    position: absolute;
+    top: 3.6em;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+} */
+.box-social-link-footer {
+    z-index: 20;
+    grid-column-gap: 5em;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: 5.8em;
+    left: 3.1em;
+}
+.box-social-link.horizontal {
+    grid-column-gap: 0.8em;
+    color: #fff;
+    flex-direction: row;
+    padding-top: 0;
+    position: static;
+}
+.link-block-3 {
+    color: #fff8f8;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 1.2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.link-block-3:hover {
+    background-color: #e2cc5e;
+    border-radius: 1.2em;
+}
+.image-35._21 {
+    width: 2.2em;
+    height: 2.2em;
+    padding: 4px;
+}
+
+.image-36 {
+    width: 1.8em;
+    border-radius: 1.1em;
+    position: absolute;
+    top: auto;
+    bottom: -0.5em;
+    left: 0.1em;
+    right: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+.html-embed {
+    width: 11.8em;
+    height: 1.8em;
+    color: #e7e9f6;
+}
+.image-11 {
+    width: 33em;
+    max-width: none;
+}
+/* .link-2 {
+    position: relative;
+    bottom: -80em;
+    color: #8998a5;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    display: block;
+} */
+.link-2 {
+    position: relative;
+    bottom: -27em;
+    color: #8998a5;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    display: block;
+}
+.link-footer {
+    color: #8998a5;
+}
+.link-footer:hover {
+    color: #000;
+}
+
+@media screen and (max-width: 1400px) {
+    .image-13 {
+        width: 71em;
+    }
+    .image-48 {
+        width: 70em;
+    }
+    .box-btn.super {
+        top: 18.8rem;
+        left: 19.5em;
+    }
+    .btn-footer {
+        width: 250px;
+    }
+    .btn-footer-bg {
+        width: 280px;
+    }
+    .image-10 {
+        width: 40.7em;
+    }
+    .image-11 {
+        width: 29em;
+    }
+    .image-12 {
+        right: -35em;
+    }
+    .link-2 {
+        bottom: -27em;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .roadmap {
+        bottom: -55em;
+    }
+    .roadcenter {
+        bottom: -45em;
+    }
+    .roadfooter {
+        bottom: -50rem;
+    }
+    .box-social-link-footer {
+        left: 1em;
+        bottom: 2.5em;
+        grid-column-gap: 3em;
+    }
+    .html-embed {
+        width: 6.8em;
+        height: 1.5em;
+    }
+    .image-35._21 {
+        width: 30px;
+        height: 30px;
+    }
+    .image-13,
+    .image-48 {
+        max-width: 940px;
+        padding-right: 15px;
+    }
+    .box-btn.super {
+        top: 15.6rem;
+        left: 16.2em;
+    }
+    .btn-footer {
+        width: 200px;
+        height: 3rem;
+    }
+    .btn-footer-bg {
+        width: 230px;
+        height: 4rem;
+    }
+    .image-10 {
+        width: 33.7em;
+    }
+    .image-11 {
+        width: 24em;
+    }
+    /* .image-12 {
+        top: 283em;
+        height: 38em;
+    } */
+    .image-12 {
+        top: 13em;
+        width: 59%;
+        height: 40em;
+        right: -27em;
+    }
+    .link-2 {
+        bottom: -11em;
+    }
+}
+@media screen and (max-width: 992px) {
+    .box-social-link-footer {
+        left: 2em;
+    }
+    .box-footer {
+        justify-content: center;
+    }
+    .image-10 {
+        max-width: 34em;
+        margin-right: 10px;
+    }
+    .image-11 {
+        max-width: 24em;
+    }
+    /* .image-12 {
+        width: 30em;
+        right: 1em;
+    } */
+    .image-12 {
+        width: 54%;
+        right: -28em;
+    }
+    .link-2 {
+        width: 950px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* .image-12 {
+        width: 100%;
+        height: 54em;
+        right: -11em;
+    } */
+    .image-12 {
+        width: 500px;
+    }
+}
+/* @media screen and (max-width: 700px) {
+    .image-12 {
+        right: -16em;
+    }
+} */
+@media screen and (max-width: 600px) {
+    .roadfooter {
+        left: 2.5rem;
+    }
+    /* .image-12 {
+        right: -27em;
+    } */
+    .image-13,
+    .image-48 {
+        max-width: 1020px;
+    }
+    .box-btn.super {
+        top: 16.8rem;
+        left: 17.5em;
+    }
+    .link-2 {
+        width: 1030px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .roadfooter {
+        width: 60em;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image-10 {
+        margin-bottom: 2rem;
+    }
+    /* .image-12 {
+        width: 70em;
+        top: 300em;
+        right: -30em;
+    } */
+    .image-12 {
+        width: 60em;
+        right: -2em;
+    }
+    .box-social-link-footer {
+        top: -7em;
+        left: 14em;
+    }
+    .link-2 {
+        width: 1024px;
+    }
+}

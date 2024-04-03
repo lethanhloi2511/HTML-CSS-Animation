@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Laika</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/content.css" />
+        <link rel="stylesheet" href="css/story.css" />
+        <link rel="stylesheet" href="css/ecosystem.css" />
+        <link rel="stylesheet" href="css/sticky.css" />
+        <link rel="stylesheet" href="css/roadmap.css" />
+    </head>
+    <body>
+        <div class="desktop">
+            <nav
+                class="navbar navbar-expand-xxl navbar-dark bg-transparent fixed-top"
+            >
+                <div class="container-xl g-0">
+                    <div class="Menu">
+                        <!-- Logo -->
+                        <div class="top-nav__logo">
+                            <img
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b80f6414d310cbb5b211ef_Logo%201.svg"
+                                alt=""
+                            />
+                        </div>
+
+                        <!-- Toggle Btn Menu -->
+                        <button
+                            class="navbar-toggler shadow-none border-0"
+                            type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- Sidebar -->
+                        <div
+                            class="sidebar offcanvas offcanvas-end"
+                            tabindex="-1"
+                            id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel"
+                        >
+                            <!-- Sidebar Header -->
+                            <div
+                                class="offcanvas-header text-white border-bottom"
+                            >
+                                <h5
+                                    class="offcanvas-title"
+                                    id="offcanvasNavbarLabel"
+                                >
+                                    Menu
+                                </h5>
+                                <button
+                                    type="button"
+                                    class="btn-close btn-close-white shadow-none"
+                                    data-bs-dismiss="offcanvas"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+
+                            <!-- Sidebar Body -->
+                            <div class="offcanvas-body">
+                                <ul
+                                    class="navbar-nav justify-content-end flex-grow-1 pe-3 top-nav__menu"
+                                >
+                                    <li class="nav-item mx-2 my-2">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#story"
+                                            >Story</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mx-2 my-2">
+                                        <a class="nav-link" href="#ecosystem"
+                                            >Ecosystem</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mx-2 my-2">
+                                        <a class="nav-link" href="#launch"
+                                            >Launch</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mx-2 my-2">
+                                        <a class="nav-link" href="#roadmap"
+                                            >Roadmap</a
+                                        >
+                                    </li>
+                                    <li class="nav-item mx-2 my-2">
+                                        <a class="nav-link" href="#whitepaper"
+                                            >Whitepaper</a
+                                        >
+                                    </li>
+                                    <li
+                                        class="nav-item mx-2 my-2 mb-3 text-center btn-laika"
+                                    >
+                                        <a class="nav-link" href="#getlaika"
+                                            >GET LAIKA</a
+                                        >
+                                    </li>
+                                </ul>
+                                <div class="mini-background">
+                                    <div class="mini-nav">
+                                        <img
+                                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/653bd353320adbc8739dcb00_Frame%202085660100.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="mini-nav-button">
+                                        <img
+                                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65267d76493d3be8cdf5f9fd_qwe.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Content -->
+            <div class="container-lg">
+                <div class="box-main">
+                    <div class="box-h1">
+                        <img
+                            class="image-3"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8c44370f0a7ad42a002a2_gr22.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div class="box-social-link">
+                        <a href="">
+                            <img
+                                class="link-block-2 w-inline-block"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/653bf22102a0d530f5ad7f03_6.webp"
+                                alt=""
+                            />
+                        </a>
+                        <a href="">
+                            <img
+                                class="link-block-2 w-inline-block"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/653bf2cca97d28e01800a1ee_3ff.webp"
+                                alt=""
+                            />
+                        </a>
+                        <a href="">
+                            <img
+                                class="link-block-2 w-inline-block"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/653bf2e45439880199e604bc_2d.webp"
+                                alt=""
+                            />
+                        </a>
+                        <a href="">
+                            <img
+                                class="link-block-2 w-inline-block"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/653bf2cca97d28e01800a1ee_3ff.webp"
+                                alt=""
+                            />
+                            <img
+                                class="image-36"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/653bf4bd274ac33499bfaee3_Group%201000002328.webp"
+                                alt=""
+                            />
+                        </a>
+                    </div>
+                    <div class="btn-super">
+                        <a href="" class="box-btn w-inline-block">
+                            <img
+                                class="btn-border main"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8124e5a3271e4d3dc1da5_Group%2020856608162.webp"
+                                alt=""
+                                style="opacity: 0"
+                            />
+                            <img
+                                class="btn main"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8115281ffd19706017a12_Group%202085660816.webp"
+                                alt=""
+                                style="opacity: 1"
+                            />
+                        </a>
+                    </div>
+
+                    <img
+                        class="image"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8e62d061212fe3f88312c_ff.webp"
+                        alt=""
+                    />
+                </div>
+            </div>
+
+            <!-- Story -->
+            <div class="container-lg">
+                <div class="box-story">
+                    <img
+                        class="image-4"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b80d2f1dd5e993d6784aaf_Laika%20story2.webp"
+                        alt=""
+                    />
+
+                    <img
+                        class="mask-igm"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526e2cc087396ca10588d6a_Group%201000002220.webp"
+                        alt=""
+                    />
+                    <img
+                        class="image-background"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526e57c9cdefc45fd41b518_Space-poster-00001.jpg"
+                        alt=""
+                    />
+
+                    <div class="card-video">
+                        <video
+                            class="video mask-igm"
+                            autoplay
+                            loop
+                            muted
+                            playsinline
+                            data-wf-ignore="true"
+                        >
+                            <source
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526e57c9cdefc45fd41b518_Space-transcode.mp4"
+                                data-wf-ignore="true"
+                            />
+                            <source
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526e57c9cdefc45fd41b518_Space-transcode.webm"
+                                data-wf-ignore="true"
+                            />
+                        </video>
+                        <img
+                            class="image-16"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b80e13b95c96534c877477_Mask%20group221.webp"
+                            alt=""
+                        />
+                    </div>
+
+                    <img
+                        class="image-15"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526e2ca65247a698bcbbc90_Group%201000002218%20(1).webp"
+                        alt=""
+                    />
+                </div>
+            </div>
+
+            <!-- Ecosystem -->
+            <div class="container-lg mt-5">
+                <div class="box-ecosystem">
+                    <div class="box-system-title">
+                        <h2>Explore ecosystem</h2>
+                        <img
+                            class="qr"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6527da2f027f757f3f36e95e_2023101211020%202.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div class="wrapper-box-card">
+                        <!-- box 1 -->
+                        <div class="box-card active">
+                            <img
+                                class="pes"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693eaa18d8c128d1ae98a_file%20(6)%202.webp"
+                                alt=""
+                            />
+                            <div class="box-text-image">
+                                <img
+                                    class="text-image"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6527daaabbff8cdac0cb88f3_1.webp"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="box-image">
+                                <img
+                                    class="bg-pes"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693e58e0e6553b64fe958_bg.webp"
+                                    alt=""
+                                />
+                                <div class="overlay" style="opacity: 0">
+                                    <img
+                                        class="bg-overlay-image"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652a646fb52b8f9549bced0a_1.webp"
+                                        alt=""
+                                    />
+                                    <div class="box-head-card">
+                                        <div class="t-50">laika Token</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- box 2 -->
+                        <div class="box-card">
+                            <img
+                                class="pes"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693ea8766e2f46e373c23_%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2%202.webp"
+                                alt=""
+                            />
+                            <div class="box-text-image">
+                                <img
+                                    class="text-image"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6527daa7ad3a4a86508ccfcb_2.webp"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="box-image">
+                                <img
+                                    class="bg-pes"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693e58e0e6553b64fe958_bg.webp"
+                                    alt=""
+                                />
+                                <div class="overlay">
+                                    <img
+                                        class="bg-overlay-image"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652a646f79cbf4ed07dd0cb3_Group%201000002237.webp"
+                                        alt=""
+                                    />
+                                    <div class="box-head-card">
+                                        <div class="t-50">Laika game</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- box 3 -->
+                        <div class="box-card">
+                            <img
+                                class="pes"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693ea786f099f6a6b0d99_file%20(2)%203.webp"
+                                alt=""
+                            />
+                            <div class="box-text-image">
+                                <img
+                                    class="text-image"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6527daa86b69f1cc1b4bbf32_3.webp"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="box-image">
+                                <img
+                                    class="bg-pes"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693e58e0e6553b64fe958_bg.webp"
+                                    alt=""
+                                />
+                                <div class="overlay">
+                                    <img
+                                        class="bg-overlay-image"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652a646f675e9e3c342f6a82_Group%201000002328.webp"
+                                        alt=""
+                                    />
+                                    <div class="box-head-card">
+                                        <div class="t-50">Laika network</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- box 4 -->
+                        <div class="box-card">
+                            <img
+                                class="pes"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693ea8ea365a401bdbb3a_file%20(3)%202.webp"
+                                alt=""
+                            />
+                            <div class="box-text-image">
+                                <img
+                                    class="text-image"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/659eef9df114230cb4ffe04f_qwes.webp"
+                                    alt=""
+                                />
+                                <a
+                                    href="#"
+                                    class="box-btn btn-card-pointer w-inline-block"
+                                >
+                                    <img
+                                        class="btn-border eco-item"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8092cebef7494e3e6f5c5_Group%202085660857.webp"
+                                        alt=""
+                                        style="opacity: 0"
+                                    />
+                                    <img
+                                        class="btn eco-main"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8091ed98e08e2a5cc28d8_Group%202085660858.webp"
+                                        alt=""
+                                        style="opacity: 1"
+                                    />
+                                </a>
+                            </div>
+                            <div class="box-image">
+                                <img
+                                    class="bg-pes"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693e58e0e6553b64fe958_bg.webp"
+                                    alt=""
+                                />
+                                <div class="overlay">
+                                    <img
+                                        class="bg-overlay-image"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652a646fe4e95fb82f2dcdbe_Group%201000002329.webp"
+                                        alt=""
+                                    />
+                                    <div class="box-head-card">
+                                        <div class="t-50">Laikaverse</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- box 5 -->
+                        <div class="box-card">
+                            <img
+                                class="pes phone"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652a7aa3d18b142762d79424_Rectangle%201537.webp"
+                                alt=""
+                            />
+                            <div class="box-text-image">
+                                <img
+                                    class="text-image"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652a7b6ffd19962a339e81c0_%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0.webp"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="box-image">
+                                <img
+                                    class="bg-pes"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693e58e0e6553b64fe958_bg.webp"
+                                    alt=""
+                                />
+                                <div class="overlay">
+                                    <img
+                                        class="bg-overlay-image"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8c0058aa8cd411b1d293f_421.webp"
+                                        alt=""
+                                    />
+                                    <div class="box-head-card">
+                                        <div class="t-50">LAIKA WALLET</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- box 6 -->
+                        <div class="box-card">
+                            <img
+                                class="pes"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693eba8d49488a55d74d0_file%20(4)%201.webp"
+                                alt=""
+                            />
+                            <div class="box-text-image">
+                                <img
+                                    class="text-image"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6527daa762b077b126166bff_5.webp"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="box-image">
+                                <img
+                                    class="bg-pes"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693e58e0e6553b64fe958_bg.webp"
+                                    alt=""
+                                />
+                                <div class="overlay">
+                                    <img
+                                        class="bg-overlay-image"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8c04628bf6ef762cfbd8b_511.webp"
+                                        alt=""
+                                    />
+                                    <div class="box-head-card">
+                                        <div class="t-50">Global brand</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- box 7 -->
+                        <div class="box-card">
+                            <img
+                                class="pes last"
+                                src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8ee32482691b47fa7dc1b_file%20(2)%2032.webp"
+                                alt=""
+                            />
+                            <div class="box-text-image">
+                                <img
+                                    class="text-image text-last"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b81c4ee65758e8cc37eb5a_%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0111.webp"
+                                    alt=""
+                                />
+                                <a
+                                    class="box-btn btn-card-pointer w-inline-block"
+                                    href="#"
+                                >
+                                    <img
+                                        class="btn-border eco-item"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b81bc6f359bffd7d7dc944_Group%202085660865.webp"
+                                        alt=""
+                                        style="opacity: 0"
+                                    />
+                                    <img
+                                        class="btn eco-main"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b81bda339e51e94ae4bbe2_Group%202085660866.webp"
+                                        alt=""
+                                        style="opacity: 1"
+                                    />
+                                </a>
+                            </div>
+                            <div class="box-image">
+                                <img
+                                    class="bg-pes"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/652693e58e0e6553b64fe958_bg.webp"
+                                    alt=""
+                                />
+                                <div class="overlay">
+                                    <img
+                                        class="bg-overlay-image"
+                                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8196bdee9c7658c444814_171614607.webp"
+                                        alt=""
+                                    />
+                                    <div class="box-head-card">
+                                        <div class="t-50">Foundation</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper-carousel">
+                        <img
+                            class="image-7"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526addc8670c99d2c372336_file%20(3)%201.webp"
+                            alt=""
+                        />
+                        <div class="box-carousel">
+                            <div id="card" class="carousel">
+                                <div class="t-20-carousel">
+                                    The Laika token transcends the typical label
+                                    of just another memecoin. Instead, $LAIKA
+                                    stands at the very heart.
+                                </div>
+                            </div>
+                        </div>
+                        <img
+                            class="image-8"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526addcc6394cfc7d59dab7_file%20(2)%201.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div class="t-50">Foundation</div>
+                </div>
+            </div>
+
+            <!-- Sticky -->
+            <div class="container-lg">
+                <div class="cont sticky">
+                    <div
+                        class="wrp-cards"
+                        style="
+                            will-change: transform;
+                            transform: translate3d(0px, 0em, 0px)
+                                scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                                rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                        "
+                    >
+                        <img
+                            class="img-cards"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6527d9ee4f017abbf0a8c0ae_Frame%2034.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div
+                        class="wrp-cards _2"
+                        style="
+                            will-change: transform;
+                            transform: translate3d(0px, 0em, 0px)
+                                scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                                rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                        "
+                    >
+                        <img
+                            class="img-cards"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6527d9ee18936cd85448da05_Frame%2035.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div
+                        class="wrp-cards _3"
+                        style="
+                            will-change: transform;
+                            transform: translate3d(0px, 0em, 0px)
+                                scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                                rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                        "
+                    >
+                        <img
+                            class="img-cards"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6527d9ed38d4e13f4a05921c_Frame%2036.webp"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Roadmap -->
+            <div class="container-lg">
+                <div class="cont roadmap">
+                    <img
+                        class="image-13"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526c821b04feae7a77f2058_ewqsd.webp"
+                        alt=""
+                    />
+                </div>
+                <div class="cont roadcenter">
+                    <img
+                        class="image-48"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b809d6aaf0897b94bf1c6b_Group%202085660859.webp"
+                        alt=""
+                    />
+                    <a href="" class="box-btn super w-inline-block">
+                        <img
+                            class="btn-border btn-footer"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8092cebef7494e3e6f5c5_Group%202085660857.webp"
+                            alt=""
+                        />
+                        <img
+                            class="btn btn-footer-bg"
+                            src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b8091ed98e08e2a5cc28d8_Group%202085660858.webp"
+                            alt=""
+                        />
+                    </a>
+                </div>
+                <div class="cont roadfooter">
+                    <img
+                        class="image-10"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/65b80804f3453196c31b44aa_Group%202085660856.webp"
+                        alt=""
+                    />
+                    <div class="box-social-link-footer">
+                        <div class="box-social-link horizontal">
+                            <a href="" class="link-block-3 w-inline-block">
+                                <div class="image-35 _21 w-embed">
+                                    <svg
+                                        width="100%"
+                                        style
+                                        viewBox="0 0 21 21"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M3.0365 2.99609L8.82782 11.2695L3 17.9961H4.31171L9.41408 12.1067L13.5365 17.9961H18L11.8827 9.25746L17.3073 2.99609H15.9956L11.2967 8.41996L7.5 2.99609H3.0365ZM4.96543 4.02831H7.01594L16.0708 16.9639H14.0203L4.96543 4.02831Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="" class="link-block-3 w-inline-block">
+                                <div class="image-35 _21 w-embed">
+                                    <svg
+                                        width="100%"
+                                        style=""
+                                        viewBox="0 0 21 21"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M17.2589 3.04477C17.2589 3.04477 18.8776 2.41352 18.7422 3.94644C18.6976 4.57769 18.293 6.78727 17.978 9.17686L16.8989 16.256C16.8989 16.256 16.8089 17.2931 15.9993 17.4735C15.1901 17.6535 13.976 16.8423 13.751 16.6619C13.571 16.5264 10.3785 14.4973 9.25429 13.5056C8.93929 13.2348 8.57929 12.6939 9.29929 12.0627L14.0205 7.55352C14.5601 7.01269 15.0997 5.75019 12.8514 7.28311L6.55554 11.5664C6.55554 11.5664 5.83595 12.0177 4.4872 11.6119L1.56387 10.7098C1.56387 10.7098 0.484706 10.0335 2.32846 9.35727C6.82554 7.23811 12.3568 5.07394 17.258 3.04477H17.2589Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="" class="link-block-3 w-inline-block">
+                                <div class="image-35 _21 w-embed">
+                                    <svg
+                                        width="100%"
+                                        style=""
+                                        viewBox="0 0 21 21"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M16.8068 5.10837C15.6985 4.59171 14.4985 4.21671 13.2485 4.00004C13.2375 3.99969 13.2266 4.00174 13.2165 4.00606C13.2065 4.01038 13.1974 4.01686 13.1901 4.02504C13.0401 4.30004 12.8651 4.65837 12.7485 4.93337C11.4226 4.73337 10.0743 4.73337 8.74847 4.93337C8.63181 4.65004 8.45681 4.30004 8.29847 4.02504C8.29014 4.00837 8.26514 4.00004 8.24014 4.00004C6.99014 4.21671 5.79847 4.59171 4.6818 5.10837C4.67347 5.10837 4.66514 5.11671 4.6568 5.12504C2.39014 8.51671 1.76514 11.8167 2.07347 15.0834C2.07347 15.1 2.0818 15.1167 2.09847 15.125C3.59847 16.225 5.04014 16.8917 6.46514 17.3334C6.49014 17.3417 6.51514 17.3334 6.52347 17.3167C6.8568 16.8584 7.1568 16.375 7.41514 15.8667C7.4318 15.8334 7.41514 15.8 7.3818 15.7917C6.9068 15.6084 6.4568 15.3917 6.01514 15.1417C5.9818 15.125 5.9818 15.075 6.0068 15.05C6.09847 14.9834 6.19014 14.9084 6.2818 14.8417C6.29847 14.825 6.32347 14.825 6.34014 14.8334C9.2068 16.1417 12.2985 16.1417 15.1318 14.8334C15.1485 14.825 15.1735 14.825 15.1901 14.8417C15.2818 14.9167 15.3735 14.9834 15.4651 15.0584C15.4985 15.0834 15.4985 15.1334 15.4568 15.15C15.0235 15.4084 14.5651 15.6167 14.0901 15.8C14.0568 15.8084 14.0485 15.85 14.0568 15.875C14.3235 16.3834 14.6235 16.8667 14.9485 17.325C14.9735 17.3334 14.9985 17.3417 15.0235 17.3334C16.4568 16.8917 17.8985 16.225 19.3985 15.125C19.4151 15.1167 19.4235 15.1 19.4235 15.0834C19.7901 11.3084 18.8151 8.03337 16.8401 5.12504C16.8318 5.11671 16.8235 5.10837 16.8068 5.10837ZM7.84847 13.0917C6.99014 13.0917 6.27347 12.3 6.27347 11.325C6.27347 10.35 6.97347 9.55837 7.84847 9.55837C8.73181 9.55837 9.4318 10.3584 9.42347 11.325C9.42347 12.3 8.72347 13.0917 7.84847 13.0917ZM13.6568 13.0917C12.7985 13.0917 12.0818 12.3 12.0818 11.325C12.0818 10.35 12.7818 9.55837 13.6568 9.55837C14.5401 9.55837 15.2401 10.3584 15.2318 11.325C15.2318 12.3 14.5401 13.0917 13.6568 13.0917Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="" class="link-block-3 w-inline-block">
+                                <div class="image-35 _21 w-embed">
+                                    <svg
+                                        width="100%"
+                                        style=""
+                                        viewBox="0 0 21 21"
+                                        fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M17.2589 3.04477C17.2589 3.04477 18.8776 2.41352 18.7422 3.94644C18.6976 4.57769 18.293 6.78727 17.978 9.17686L16.8989 16.256C16.8989 16.256 16.8089 17.2931 15.9993 17.4735C15.1901 17.6535 13.976 16.8423 13.751 16.6619C13.571 16.5264 10.3785 14.4973 9.25429 13.5056C8.93929 13.2348 8.57929 12.6939 9.29929 12.0627L14.0205 7.55352C14.5601 7.01269 15.0997 5.75019 12.8514 7.28311L6.55554 11.5664C6.55554 11.5664 5.83595 12.0177 4.4872 11.6119L1.56387 10.7098C1.56387 10.7098 0.484706 10.0335 2.32846 9.35727C6.82554 7.23811 12.3568 5.07394 17.258 3.04477H17.2589Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <img
+                                    class="image-36"
+                                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/653bf8546172f811fc29f6b8_Group%202087325090.webp"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+
+                        <a href="" class="w-inline-block">
+                            <div class="html-embed w-embed">
+                                <svg
+                                    width="100%"
+                                    style=""
+                                    viewBox="0 0 118 19"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M3.67773 11.7832L6.00195 5.05664H8.2168L10.541 11.7832L11.334 3.53906H13.5762L12.6328 12.1934C12.5417 12.9681 12.1771 13.5059 11.5391 13.8066C11.2656 13.9342 10.9831 13.998 10.6914 13.998C10.0625 13.998 9.58398 13.752 9.25586 13.2598C9.17383 13.1413 9.11003 13.0182 9.06445 12.8906L7.10938 7.20312L5.16797 12.8906C4.95833 13.4557 4.55273 13.8066 3.95117 13.9434C3.80534 13.9798 3.66406 13.998 3.52734 13.998C2.87109 13.998 2.35612 13.7428 1.98242 13.2324C1.77279 12.9316 1.64518 12.5853 1.59961 12.1934L0.642578 3.53906H2.88477L3.67773 11.7832ZM17.377 9.02148L18.0879 7.88672H21.875V3.53906H23.9805V13.9297H21.875V9.69141H17.377V13.9297H15.2852V3.53906H17.377V9.02148ZM26.0723 3.53906H28.1641V13.9297H26.0723V3.53906ZM34.5488 13.9297H32.4434V5.37109C32.4434 4.76042 32.7077 4.27279 33.2363 3.9082C33.5918 3.66211 33.9883 3.53906 34.4258 3.53906H37.5293V5.34375H34.5488V13.9297ZM32.8398 3.53906L31.7188 5.34375H29.6543V3.53906H32.8398ZM40.9336 9.69141V12.125H46.293L47.2773 13.9297H40.8105C40.1452 13.9297 39.612 13.679 39.2109 13.1777C38.9557 12.8496 38.8281 12.4896 38.8281 12.0977V5.37109C38.8281 4.76042 39.0924 4.27279 39.6211 3.9082C39.9766 3.66211 40.373 3.53906 40.8105 3.53906H47.2773L46.293 5.34375H40.9336V7.88672H45.8691V9.69141H40.9336ZM50.8867 5.34375V13.9297H48.7949V5.37109C48.7949 4.7513 49.0592 4.25911 49.5879 3.89453C49.9434 3.65755 50.3353 3.53906 50.7637 3.53906H53.5938C54.8607 3.53906 55.877 3.91732 56.6426 4.67383C57.2897 5.32096 57.6133 6.11849 57.6133 7.06641V7.46289C57.6133 8.63867 57.1439 9.55924 56.2051 10.2246C55.4759 10.735 54.6055 10.9902 53.5938 10.9902H51.0234L52.1445 9.18555H53.5938C54.4505 9.18555 55.0293 8.88932 55.3301 8.29688C55.4486 8.05078 55.5078 7.77279 55.5078 7.46289V7.06641C55.5078 6.24609 55.1387 5.71289 54.4004 5.4668C54.1543 5.38477 53.8854 5.34375 53.5938 5.34375H50.8867ZM65.2148 12.5488H60.6621L61.7832 10.7441H64.5859L62.8086 5.64453L59.9102 13.9297H57.668L60.7168 5.23438C61.1634 4.02214 61.8607 3.41146 62.8086 3.40234C63.7565 3.41146 64.4492 4.02214 64.8867 5.23438L67.9492 13.9297H65.707L65.2148 12.5488ZM71.2031 5.34375V13.9297H69.1113V5.37109C69.1113 4.7513 69.3757 4.25911 69.9043 3.89453C70.2598 3.65755 70.6517 3.53906 71.0801 3.53906H73.9102C75.1771 3.53906 76.1934 3.91732 76.959 4.67383C77.6061 5.32096 77.9297 6.11849 77.9297 7.06641V7.46289C77.9297 8.63867 77.4603 9.55924 76.5215 10.2246C75.7923 10.735 74.9219 10.9902 73.9102 10.9902H71.3398L72.4609 9.18555H73.9102C74.7669 9.18555 75.3457 8.88932 75.6465 8.29688C75.765 8.05078 75.8242 7.77279 75.8242 7.46289V7.06641C75.8242 6.24609 75.4551 5.71289 74.7168 5.4668C74.4707 5.38477 74.2018 5.34375 73.9102 5.34375H71.2031ZM81.3887 9.69141V12.125H86.748L87.7324 13.9297H81.2656C80.6003 13.9297 80.0671 13.679 79.666 13.1777C79.4108 12.8496 79.2832 12.4896 79.2832 12.0977V5.37109C79.2832 4.76042 79.5475 4.27279 80.0762 3.9082C80.4316 3.66211 80.8281 3.53906 81.2656 3.53906H87.7324L86.748 5.34375H81.3887V7.88672H86.3242V9.69141H81.3887ZM91.3418 5.34375V13.9297H89.25V5.37109C89.25 4.7513 89.5143 4.25911 90.043 3.89453C90.3984 3.65755 90.7904 3.53906 91.2188 3.53906H94.0488C95.3158 3.53906 96.332 3.91732 97.0977 4.67383C97.7448 5.32096 98.0684 6.11849 98.0684 7.06641V7.46289C98.0684 8.64779 97.599 9.56836 96.6602 10.2246C96.3047 10.4707 95.9128 10.6576 95.4844 10.7852L98.3008 13.9297H95.6895L93.0918 10.9902H91.4785L92.5996 9.18555H94.0488C94.9056 9.18555 95.4844 8.88932 95.7852 8.29688C95.9036 8.05078 95.9629 7.77279 95.9629 7.46289V7.06641C95.9629 6.24609 95.5938 5.71289 94.8555 5.4668C94.6094 5.38477 94.3405 5.34375 94.0488 5.34375H91.3418Z"
+                                        fill="currentColor"
+                                    ></path>
+                                    <path
+                                        d="M107 7.39052V9.46886C110.081 9.45196 116.363 9.41817 116.845 9.41817C117.434 9.41817 117.397 9.51955 117.397 9.67162C117.397 9.87439 117.314 9.89128 117.247 9.92508H114.836L111.32 13.4735C111.119 13.6762 111.303 13.8621 111.42 13.9297H114.082L118 9.97577V6.9343L114.082 2.92969H111.671C111.521 2.92969 111.42 2.98038 111.37 3.08176C111.32 3.18314 111.269 3.23383 111.32 3.38591L114.785 6.9343H116.995C117.447 6.9343 117.397 7.08637 117.397 7.18775C117.397 7.33983 117.314 7.35672 117.247 7.39052H107Z"
+                                        fill="currentColor"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                    <img
+                        class="image-11"
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/653bf09129b481596f99e48f_Frame%2045.webp"
+                        alt=""
+                    />
+                </div>
+                <img
+                    class="image-12"
+                    src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/6526c51783a4c2b150f890cd_Frame%2038.jpg"
+                    alt=""
+                />
+            </div>
+            <div class="link-2">
+                © 2024 SPACE JAM TECHNOLOGIES LTD.️
+                <br />
+                <a href="" class="link-footer">Legal disclaimer</a>
+                .
+                <a href="" class="link-footer">Privacy Notice</a>
+            </div>
+
+            <!-- Banner  -->
+            <div class="banner">
+                <div class="box-info-banner">
+                    <img
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/658eda19cc289cdec0365617_Group%201000002326.svg"
+                        alt=""
+                    />
+                    <div class="p-16">Get reward for SUPERverse quest</div>
+                    <img
+                        src="https://assets-global.website-files.com/651bfa32ccebd781245bd707/658eda19cc289cdec0365617_Group%201000002326.svg"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

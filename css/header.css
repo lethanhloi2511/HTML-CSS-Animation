@@ -1,0 +1,142 @@
+.Menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner {
+    z-index: 25;
+    grid-column-gap: 0.8em;
+    grid-row-gap: 0.8em;
+    color: #806e0f;
+    cursor: pointer;
+    background-color: #e1cc5e;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+}
+.navbar-toggler {
+    background-color: cadetblue;
+}
+.box-info-banner {
+    grid-column-gap: 0.8em;
+    grid-row-gap: 0.8em;
+    align-items: center;
+    display: flex;
+}
+.p-16 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+/* ==================== Menu ==================== */
+.fixed-top {
+    position: relative;
+    z-index: 999;
+    top: 5em;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+}
+.top-nav__menu {
+    font-weight: 600;
+}
+.top-nav__menu a {
+    z-index: 1;
+    color: #000;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 110%;
+    position: relative;
+}
+.top-nav__menu a:hover {
+    color: #e1cc5e;
+}
+.top-nav__menu a.active {
+    font-weight: bold;
+    color: #e1cc5e !important;
+}
+
+.btn-laika a:hover {
+    color: white;
+}
+.btn-laika a.active {
+    font-weight: bold;
+    color: cadetblue !important;
+}
+.mini-background {
+    position: relative;
+    top: -12px;
+    left: 50px;
+}
+.mini-nav {
+    z-index: 0;
+    position: absolute;
+    top: 0.5rem;
+    right: 13%;
+}
+
+.mini-nav img {
+    width: 50rem;
+    height: 5rem;
+    backdrop-filter: blur(3px);
+}
+
+.mini-nav-button {
+    position: absolute;
+    top: -3%;
+    right: 3rem;
+}
+
+.mini-nav-button img {
+    width: 10rem;
+    height: 5rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        transition: all 600ms ease-in-out;
+    }
+    .top-nav__menu {
+        text-align: center;
+    }
+    .mini-background {
+        top: -15px;
+        left: 0;
+    }
+    .mini-nav {
+        display: none;
+    }
+    .mini-nav-button {
+        top: -60px;
+        right: 7rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    /* .navbar-toggler {
+        margin-right: 0.5rem;
+    } */
+    .fixed-top {
+        width: 99%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .fixed-top {
+        width: 59rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .fixed-top {
+        width: 64rem;
+    }
+}
