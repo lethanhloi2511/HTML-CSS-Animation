@@ -27,14 +27,7 @@
     width: 81em;
     max-width: none;
 }
-/* .image-12 {
-    height: 51em;
-    max-width: none;
-    position: absolute;
-    bottom: -70em;
-    right: 0px;
-    z-index: -10;
-} */
+
 .image-12 {
     height: 46em;
     max-width: none;
@@ -91,16 +84,7 @@
     width: 47.7em;
     max-width: none;
 }
-/* .link-loin-now {
-    z-index: 2;
-    width: 54em;
-    height: 11em;
-    position: absolute;
-    top: 3.6em;
-    bottom: auto;
-    left: 0%;
-    right: auto;
-} */
+
 .box-social-link-footer {
     z-index: 20;
     grid-column-gap: 5em;
@@ -160,17 +144,7 @@
     width: 33em;
     max-width: none;
 }
-/* .link-2 {
-    position: relative;
-    bottom: -80em;
-    color: #8998a5;
-    text-align: center;
-    margin-top: 2em;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 140%;
-    display: block;
-} */
+
 .link-2 {
     position: relative;
     bottom: -27em;
@@ -265,10 +239,7 @@
     .image-11 {
         width: 24em;
     }
-    /* .image-12 {
-        top: 283em;
-        height: 38em;
-    } */
+
     .image-12 {
         top: 13em;
         width: 59%;
@@ -293,10 +264,7 @@
     .image-11 {
         max-width: 24em;
     }
-    /* .image-12 {
-        width: 30em;
-        right: 1em;
-    } */
+
     .image-12 {
         width: 54%;
         right: -28em;
@@ -306,27 +274,16 @@
     }
 }
 @media screen and (max-width: 768px) {
-    /* .image-12 {
-        width: 100%;
-        height: 54em;
-        right: -11em;
-    } */
     .image-12 {
         width: 500px;
     }
 }
-/* @media screen and (max-width: 700px) {
-    .image-12 {
-        right: -16em;
-    }
-} */
+
 @media screen and (max-width: 600px) {
     .roadfooter {
         left: 2.5rem;
     }
-    /* .image-12 {
-        right: -27em;
-    } */
+
     .image-13,
     .image-48 {
         max-width: 1020px;
@@ -345,14 +302,11 @@
         flex-direction: column;
         justify-content: center;
     }
+
     .image-10 {
         margin-bottom: 2rem;
     }
-    /* .image-12 {
-        width: 70em;
-        top: 300em;
-        right: -30em;
-    } */
+
     .image-12 {
         width: 60em;
         right: -2em;

@@ -59,17 +59,17 @@ const navLink = document.querySelectorAll('.nav-item');
 navLink.forEach((navItem) => {
     navItem.addEventListener('click', (e) => {
         e.preventDefault();
+        const elements = document.querySelector('.nav-link.active');
+        if (elements !== null) {
+            elements.classList.remove('active');
+        }
+        e.target.classList.add('active');
         if (e.target.href.includes('#story')) {
             window.scrollTo({
                 left: 0,
                 top: boxStory.offsetTop - 50,
                 behavior: 'smooth',
             });
-            const elements = document.querySelector('.nav-link.active');
-            if (elements !== null) {
-                elements.classList.remove('active');
-            }
-            e.target.classList.add('active');
         }
         if (e.target.href.includes('#ecosystem')) {
             window.scrollTo({
@@ -77,11 +77,6 @@ navLink.forEach((navItem) => {
                 top: boxEcosystem.offsetTop - 50,
                 behavior: 'smooth',
             });
-            const elements = document.querySelector('.nav-link.active');
-            if (elements !== null) {
-                elements.classList.remove('active');
-            }
-            e.target.classList.add('active');
         }
         if (e.target.href.includes('#launch')) {
             window.scrollTo({
@@ -89,11 +84,6 @@ navLink.forEach((navItem) => {
                 top: boxLaunch.offsetTop - 50,
                 behavior: 'smooth',
             });
-            const elements = document.querySelector('.nav-link.active');
-            if (elements !== null) {
-                elements.classList.remove('active');
-            }
-            e.target.classList.add('active');
         }
         if (e.target.href.includes('#roadmap')) {
             window.scrollTo({
@@ -101,11 +91,6 @@ navLink.forEach((navItem) => {
                 top: boxRoadmap.offsetTop - 50,
                 behavior: 'smooth',
             });
-            const elements = document.querySelector('.nav-link.active');
-            if (elements !== null) {
-                elements.classList.remove('active');
-            }
-            e.target.classList.add('active');
         }
         if (e.target.href.includes('#whitepaper')) {
             window.scrollTo({
@@ -113,19 +98,9 @@ navLink.forEach((navItem) => {
                 top: boxWhitepaper.offsetTop - 50,
                 behavior: 'smooth',
             });
-            const elements = document.querySelector('.nav-link.active');
-            if (elements !== null) {
-                elements.classList.remove('active');
-            }
-            e.target.classList.add('active');
         }
         if (e.target.href.includes('#getlaika')) {
-            window.scrollTo(0, 0);
-            const elements = document.querySelector('.nav-link.active');
-            if (elements !== null) {
-                elements.classList.remove('active');
-            }
-            e.target.classList.add('active');
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
         }
     });
 });
